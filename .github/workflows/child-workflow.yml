@@ -12,3 +12,4 @@ jobs:
     steps:
       - run: pwd
       - run: ls -la
+      - run: cat this-is-workflow-2.txt
