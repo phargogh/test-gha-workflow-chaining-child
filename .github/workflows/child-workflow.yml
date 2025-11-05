@@ -1,0 +1,15 @@
+on:
+  workflow_call:
+    inputs:
+      some_parameter:
+        description: "A sample string parameter"
+        required: true
+        type: string
+
+jobs:
+  doit:
+    runs-on: ubuntu-latest
+    steps:
+      - run:
+          pwd
+          ls -la
