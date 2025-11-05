@@ -10,6 +10,5 @@ jobs:
   doit:
     runs-on: ubuntu-latest
     steps:
-      - run:
-          pwd
-          ls -la
+      - run: pwd
+      - run: ls -la
